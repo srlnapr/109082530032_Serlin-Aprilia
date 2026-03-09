@@ -25,7 +25,7 @@ func main() {
 	} else {
 		totalBiaya = biayaKg + biayaSisa
 	}
-
+	fmt.Println("==== Detail Perhitungan ====")
 	fmt.Printf("Detail berat : %d kg + %d gr \n", kg, sisaGram)
 	fmt.Printf("Detail biaya : Rp. %d + Rp. %d \n", biayaKg, biayaSisa)
 	fmt.Print("Total biaya : Rp.", totalBiaya)
